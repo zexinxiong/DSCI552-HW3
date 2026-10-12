@@ -37,9 +37,12 @@ The notebook uses paths relative to the repository root and locates the data in
 `data/AReM`. Before submission, run all cells from a clean kernel and confirm
 that every cell completes without an exception.
 
+The feature table in Section 1(c)(ii) displays all 88 instances and 42 numeric
+features. Values are rounded to three decimal places for display only; later
+calculations use the unrounded values.
+
 ## Data
 
 The AReM data set contains 88 recordings from seven activities. The original
 files are retained unchanged. The notebook documents and handles minor source
 format inconsistencies while loading the data.
-
